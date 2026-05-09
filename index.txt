@@ -1,0 +1,19 @@
+
+=====================================
+Done
+---------
+I used to in the project:
+used API
+Authentication:Scantum :user can't open the home without login or create account
+Authrozation:policy each user can contoller in your Task , Update your task and delete it
+Resource to orgnaize data
+Controller Resource
+Used a Validatation
+used a Cache to imporve the performence
+=======================================
+I will do it 
+------------
+rest a passsword
+Verify email
+
+
