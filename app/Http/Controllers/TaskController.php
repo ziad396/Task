@@ -31,7 +31,7 @@ class TaskController extends Controller
         ]);
     }
     public function filtering(Request $request){
-        $keyword=$request->keyword;
+        // $keyword=$request->keyword;
         $query=Task::query();
 
              if($request->has('sort')){
