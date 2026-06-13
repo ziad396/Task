@@ -19,7 +19,7 @@ Route::get('index',function(Request $request){
     'name'=>'ziad']);
 });
 // Route::get('mytask/{id}',[TaskController::class,'task'])->name('mytask')->middleware('task');
-Route::resource('task',TaskController::class)->middleware(['auth:sanctum', 'api']);
+Route::resource('task',TaskController::class)->middleware([ 'api']);
 //routes of user
 Route::post('user/register',[UserController::class,'register']);
 Route::post('user/forget-password',[UserController::class,'forgetPassword']);
